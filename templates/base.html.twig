@@ -5,11 +5,15 @@
         <title>{% block title %}Pokinator{% endblock %}</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap" rel="stylesheet">
-        <link rel="icon" href="public/favicon.ico">
+        <style>
+            .global { margin: 1em auto; max-width: 800px; width: 95%; font-family: 'Poppins', sans-serif; }
+        </style>
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
+        <div class="global">
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
+        </div>
     </body>
 </html>
