@@ -1,17 +1,16 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
+    <div class="container">
+        <h3>Question</h3>
+        <ul>
+            <li>Oui</li>
+            <li>Non</li>
+            <li>Je sais pas</li>
+        </ul>
+    </div>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
-
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'C:/projets_dev/Pokinator/src/Controller/GameController.php'|file_link(0) }}">src/Controller/GameController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'C:/projets_dev/Pokinator/templates/game/index.html.twig'|file_link(0) }}">templates/game/index.html.twig</a></code></li>
-    </ul>
-</div>
-<div class="answer">
-    <h3></h3>
-</div>
+    <div class="container">
+        <a href="{{ path('home') }}" class="btn-danger btn-lg">Back Home</a>
+    </div>
 {% endblock %}
