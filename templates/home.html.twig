@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<div class="home">
+    <h1>{{ 'title.pokinator' | trans }}</h1>
+
+    <p>{{ 'label.pokinator_speech' | trans }}</p>
+
+    <a href="{{ path('game') }}" class="btn-danger btn-lg">{{ 'label.play_the_game' | trans }}</a>
+</div>
+
+{% endblock %}

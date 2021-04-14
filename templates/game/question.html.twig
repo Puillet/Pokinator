@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <h3>{{ 'title.question' | trans }}</h3>
+        {% include 'game/answer.html.twig' %}
+    </div>
+
+    <div class="container">
+        <a href="{{ path('home') }}" class="btn-danger btn-lg">{{ 'label.back_home' | trans }}</a>
+    </div>
+{% endblock %}
