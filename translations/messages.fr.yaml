@@ -2,3 +2,10 @@ label:
   yes: 'Oui'
   no: 'Non'
   dont_know: 'Je ne sais pas'
+  back_home: 'Retour à l''accueil'
+  play_the_game: 'Lancez une partie'
+  pokinator_speech: 'Un Akinator sur la 1ère génération de Pokémon'
+title:
+  pokinator: 'Pokinator'
+  question: 'Question'
+  
